@@ -40,7 +40,6 @@ function password(){
   if (length < 8 || length > 128){
     alert("please select a length range between 8 and 256");
   }else if(length >= 8 && length <= 128){
-    passwordGenerator(length, );
     document.getElementById('password').value = passwordGenerator(length);
   }else{
     alert("an error has occured, please try reloading the page.")
